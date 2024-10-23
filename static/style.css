@@ -1,0 +1,91 @@
+body {
+    display: flex; /* Utiliza flexbox para centrar elementos */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* Altura completa de la ventana del navegador */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra el texto en el body */
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f0f0f0; /* Color de fondo para el header */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 8px; /* Esquinas redondeadas */
+    width: 100%; /* Asegura que el header ocupe el ancho completo */
+    max-width: 600px; /* Limita el ancho máximo */
+    text-align: left; /* Alineación del texto a la izquierda dentro del recuadro */
+}
+
+h1, h2 {
+    margin: 0; /* Elimina márgenes para h1 y h2 */
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 2em; /* Cambia el tamaño de fuente según lo desees */
+    font-weight: bold; /* Opcional: hace que el texto sea más grueso */
+}
+
+.nuevo-producto {
+    display: inline-block; /* Mantiene el botón en línea */
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    float: left; /* Alinea el botón a la izquierda */
+}
+
+
+.nuevo-producto:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+form {
+    margin-bottom: 20px; /* Espaciado entre formularios */
+}
+
+input {
+    display: block; /* Asegura que cada input esté en su línea */
+    margin: 5px auto; /* Centra los inputs y les da margen */
+    padding: 10px;
+    width: 80%; /* Ancho de los inputs */
+    border: 1px solid #ccc; /* Borde de los inputs */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+button {
+    padding: 10px 15px; /* Espaciado interno del botón */
+    background-color: #28a745; /* Color de fondo para los botones */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+button:hover {
+    background-color: #218838; /* Color de fondo al pasar el ratón */
+}
+
+table {
+    width: 80%; /* Ajusta el ancho de la tabla */
+    border-collapse: collapse; /* Elimina el espaciado entre celdas */
+    margin-top: 20px; /* Margen superior para la tabla */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Borde de celdas */
+    padding: 8px; /* Espaciado dentro de las celdas */
+    text-align: left; /* Alineación del texto en las celdas */
+}
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para los encabezados de la tabla */
+}
